@@ -1,3 +1,4 @@
+#!/bin/bash
 sudo yum -y install docker
 
 sudo tee -a /etc/sysconfig/docker <<-'EOF'
