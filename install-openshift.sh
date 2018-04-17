@@ -9,7 +9,7 @@ sudo systemctl restart docker
 
 sudo yum -y install wget curl
 
-wget https://github.com/openshift/origin/releases/download/v3.9.0/openshift-origin-client-tools-v3.9.0-191fece-linux-64bit.tar.gz
+wget https://github.com/openshift/origin/releases/download/v3.9.0/openshift-origin-client-tools-v3.9.0-191fece-linux-64bit.tar.gz -P /tmp
 
 tar xzf /tmp/openshift-origin-client-tools-v3.9.0-191fece-linux-64bit.tar.gz -C /tmp
 
