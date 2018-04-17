@@ -1,5 +1,9 @@
 #!/bin/bash
-sudo mkdir /mydata
+cur_dir=`pwd`
 
-public_ip=`curl http://myip.dnsomatic.com`
-sudo oc cluster up --create-machine=false --host-data-dir=/mydata --metrics=true --public-hostname=$public_ip --routing-suffix=$public_ip.xip.io
+if [ ! -d "$cur_dir/ocdata" ]; then
+  mkdir $cur_dir/ocdata
+fi
+
+public_ip=`curl -s http://myip.dnsomatic.com`
+sudo oc cluster up --create-machine=false --host-data-dir=$curdir/ocdata --metrics=false --public-hostname=$public_ip --routing-suffix=$public_ip.xip.io
