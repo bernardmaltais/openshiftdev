@@ -1,4 +1,9 @@
 #!/bin/bash
+sudo sed -i 's/enforcing/permissive/g' /etc/selinux/config
+
+sudo systemctl stop firewalld
+sudo systemctl disable firewalld
+
 sudo yum -y install docker
 
 sudo tee -a /etc/sysconfig/docker <<-'EOF'
