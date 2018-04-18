@@ -6,6 +6,8 @@ sudo systemctl disable firewalld
 
 sudo yum -y install docker
 
+sudo systemctl enable docker
+
 sudo tee -a /etc/sysconfig/docker <<-'EOF'
 INSECURE_REGISTRY='--insecure-registry 172.30.0.0/16'
 EOF
