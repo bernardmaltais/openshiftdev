@@ -20,7 +20,7 @@ When everything is installed start openshift with:
 ./ocup
 ```
 
-Wait a bit (2 to 5 minutes usually) and use the https:// link returned to connect to the Openshift console. For example, ocup.sh will return something like:
+Wait a bit (2 to 5 minutes usually) and use the https:// link returned to connect to the Openshift console. For example, if everything goes well ocup.sh will return something like:
 
 ```shell
 [centos@openshiftdemo openshiftdev]$ ./ocup.sh
