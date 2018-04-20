@@ -11,3 +11,9 @@ When everything is installed start openshift with:
 ```shell
 ./ocup
 ```
+
+To bring it down, either delete the VM or use the following command:
+
+```shell
+./ocdown
+```
