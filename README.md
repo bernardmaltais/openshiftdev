@@ -10,6 +10,7 @@ git clone https://github.com/bernardmaltais/openshiftdev.git
 on and then run:
 
 ```shell
+cd openshiftdev
 ./install-openshift.sh
 ```
 
