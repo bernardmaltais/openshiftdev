@@ -20,6 +20,8 @@ When everything is installed start openshift with:
 ./ocup
 ```
 
+Wait a bit (2 to 5 minutes usually) and use the https:// link returned to connect to the Openshift console.
+
 To bring it down, either delete the VM or use the following command:
 
 ```shell
