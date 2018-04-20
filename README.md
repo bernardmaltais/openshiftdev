@@ -1,6 +1,13 @@
 # openshiftdev
 
-Simply clone the project to the VM you want to run openshift on and then run:
+Simply clone the project to the VM you want to run openshift:
+
+```shell
+sudo yum -y install git
+git clone <link to the github project>
+```
+
+on and then run:
 
 ```shell
 ./install-openshift.sh
