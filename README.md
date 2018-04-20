@@ -1,6 +1,6 @@
 # openshiftdev
 
-Simply clone the project to the VM you want to run openshift:
+Simply clone the project to the centos 7 VM you want to run openshiftdev on:
 
 ```shell
 sudo yum -y install git
