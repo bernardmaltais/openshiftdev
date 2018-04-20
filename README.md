@@ -54,4 +54,4 @@ To bring it down, either delete the VM or use the following command:
 ./ocdown
 ```
 
-If you used ocdown you can bring the environment up at a later point by simply using the ocup.sh command again. Make sure that the VM you run this on has a static public IP. Any change in public IP associated to this VM will result in a total breakdown ;-) This is call dev fo no reasons.
+If you used ocdown you can bring the environment up at a later point by simply using the ocup.sh command again. Make sure that the VM you run this on has a static public IP. Any change in public IP associated to this VM will result in a total breakdown ;-) This is why is is called dev.
