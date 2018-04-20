@@ -7,7 +7,7 @@ sudo yum -y install git
 git clone https://github.com/bernardmaltais/openshiftdev.git
 ```
 
-on and then run:
+and then run:
 
 ```shell
 cd openshiftdev
@@ -53,3 +53,5 @@ To bring it down, either delete the VM or use the following command:
 ```shell
 ./ocdown
 ```
+
+If you used ocdown you can bring the environment up at a later point by simply using the ocup.sh command again. Make sure that the VM you run this on has a static public IP. Any change in public IP associated to this VM will result in a total breakdown ;-) This is call dev fo no reasons.
