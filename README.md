@@ -20,7 +20,33 @@ When everything is installed start openshift with:
 ./ocup
 ```
 
-Wait a bit (2 to 5 minutes usually) and use the https:// link returned to connect to the Openshift console.
+Wait a bit (2 to 5 minutes usually) and use the https:// link returned to connect to the Openshift console. For example, ocup.sh will return something like:
+
+```shell
+[centos@openshiftdemo openshiftdev]$ ./ocup.sh
+Pulling image openshift/origin:v3.9.0
+Pulled 1/4 layers, 31% complete
+Pulled 2/4 layers, 69% complete
+Pulled 3/4 layers, 82% complete
+Pulled 4/4 layers, 100% complete
+Extracting
+Image pull complete
+Using nsenter mounter for OpenShift volumes
+Using public hostname IP 40.71.224.118 as the host IP
+Using 40.71.224.118 as the server IP
+Starting OpenShift using openshift/origin:v3.9.0 ...
+OpenShift server started.
+
+The server is accessible via web console at:
+    https://40.71.224.118:8443
+
+You are logged in as:
+    User:     developer
+    Password: <any value>
+
+To login as administrator:
+    oc login -u system:admin
+```
 
 To bring it down, either delete the VM or use the following command:
 
