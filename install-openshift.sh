@@ -8,7 +8,7 @@ sudo yum -y install docker
 
 sudo systemctl enable docker
 
-if sudo grep -Fxq "INSECURE_REGISTRY" /etc/sysconfig/docker
+if sudo grep -q "INSECURE_REGISTRY" /etc/sysconfig/docker
 then
     echo "Warning: inseruce-registry already set. Not doing again"
 else
