@@ -1,4 +1,12 @@
 # openshiftdev
+## VM Requirements
+
+- 8 GB of RAM or more. Less might work but mileage may vary
+- 8+ GB of dosk. Preferably SSD.
+- 2+ vcpu. Recommend 4 to be comfortable.
+- CentOS 7. Other distro will work but you will have to adapt the scripts slightly.
+
+## Instructions
 
 Simply clone the project to the centos 7 VM you want to run openshiftdev on:
 
